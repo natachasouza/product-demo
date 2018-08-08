@@ -1,46 +1,40 @@
 # product-demo
-This Is Our Product Base Repository. As a developer of this team, you should start here by getting an overview of the technologies we use and by following our quick-setup guide, so you can start coding in no time! This guide should also explain our choices and guide you to other repositories you might need next. Ready to start?
+This Is the Base Repository of our Product App. As a developer of this team, you should start here by getting an overview of the technologies we use/plan to use in the future. This guide should also explain our choices and point you to other repositories you might need next. Ready to start?
 
-# This is an H1 - Main Title #
+# Technology Stack Choice #
 
-We chose some stuff to use on front-end. State them here:
-1. Stuff 1
-2. Second Stuff
-3. Some more stuff
+This is a short guide on the stack of technologies we use and why. This covers both front and back-end, and also any external APIs and/or enablers we might use. There's also mention to some key points we've considered to the future, when we'll be scaling up the app.
 
-Also, we chose some back-end stuff that we talk about here:
-1. Stuff 1
-2. Second Stuff
-3. Some more stuff
+## Front-End ##
 
-We should also talk about any external APIs we use, some Enablers and we should also mention key points to consider when scaling up the app:
+There's no secret here. HTML + CSS + JavaScript. No need for reinventing the wheel, some of the best developer minds out there already said this is the best stack for Front-End App Development. In the next topics, you can read more about frameworks/libraries we use on the Front and why.
 
-- Some stuff
-- Some more stuff
-  - More stuff to consider about the previous stuff
- - And so on...
+### HTML ###
 
-## This is an H2 - Tech #1 ##
+We just use plain HTML here, no libraries :books: needed. 
 
-This is an intro to Tech #1. 
+### CSS ###
 
-![Add a pretty image](path/to/prettyimage.png)
+Why writing 327 times in my stylesheet that my theme color is #4169E1? Why not just create a variable theme-color-blue: #4169E1 and use it everywhere? We should be focusing in accomplishing more by writing less!
 
-### These are some H3s ###
-> This is a nice quote, fleberts buggabuffs. - Someone Important, 2018
+The use of variables, nested rules and other advantages are the reasons why we're using preprocessors at our Product App.
 
-This is some code example:
+There was some short discussion between using SCSS or SASS as preprocessor, but we ended up chosing SASS since the jump from SCSS to SASS isn't that big and SASS is more commonly used by the industry, which is a big advantage since it has a wider community (which means more support). 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+If this is new to you, please check [SASS Documentation](https://sass-lang.com/documentation/file.SASS_REFERENCE.html) 
 
-### These are some H3s ###
+### JavaScript ###
 
-## This is an H2 - Tech #2 ##
+We're using a quite famous javascript library called React. ...
 
-This is an intro to Tech #2. 
 
-![Add a pretty image](path/to/prettyimage.png)
+## Back-End ##
+
+### Stack Choice #1 ###
+### Stack Choice #2 ###
+
+## Other Choices and Future Considerations ##
+
+- External APIs? 
+- Enablers?
+- What have we thought about scaling up the app in the future?
