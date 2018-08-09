@@ -30,11 +30,20 @@ We're using a quite famous javascript library called React. ...
 
 ## Back-End ##
 
-### Stack Choice #1 ###
-### Stack Choice #2 ###
+The MEAN Stack
 
-## Other Choices and Future Considerations ##
+### MongoDB ###
+### Express.js ###
+### Node.js ###
+
+## More ##
+
+### Bootstrap, Agile, DevOps ###
+
+There is no (or there should be no) front-end web development without bootstrap. Code once and have your project working fine in whatever screen size your viewers choose.
+
+(Docker, Nginx, Grunt, Bower, Jenkins (CI/CD)
+
+
 
 - External APIs? 
-- Enablers?
-- What have we thought about scaling up the app in the future?
